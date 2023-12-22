@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #43A5BE;
+}
+
+header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+}
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #90caf9;
+.column {
+  float: left;
+  width: 43.33%;
+  padding: 5px;
+}
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+  nav {
+            background-color: #A0522D;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+}
+
+section {
+            padding: 20px;
+			magrin: right;
+}
+
+        footer {
+            background-color: #A0522D;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+ }      		
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h2>Education</h2>
+</header>
+<p>Click on the buttons in the tab menu to find out about Azham schools:&#128515; &#128071;</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">SKSJ</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">SMKTBB</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">SMKSJ2</button>
+</div>
+
+<div id="London" class="tabcontent">
+<img src="gambar.jpg" class="man" width="200"height="250"/> 
+  <h4>SEKOLAH KEBANGSAAN SEREMBAN JAYA</h4>
+  <p>Sekolah Kebangsaan Seremban Jaya or SK Seremban Jaya for short, is a national school located in Taman Seremban Jaya.I studied here from the age of 7 to 12, which is 6 years of schooling here. This school is close to my house, about 3.5 km from home to school. My mother sent me to go to school by a car. I sat for the Primary School Examination (UPSR) here. The teachers and friends here are very good,by the way my mother works here as a teacher makes it easy for me to be here. I don't have many interesting events here because I have long forgotten my experience here but this school is fun to learn.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+<img src="gambartbb.jpg" class="man" width="200"height="250"/>
+  <h3>SEKOLAH MENENGAH KEBANGSAAN TUNKU BESAR BURHANUDIN</h3>
+  <p>Sekolah Menengah Kebangsaan Tunku Besar Burhanuddin or SMK Tunku Besar Burhanuddin for short is a fully government aided school. This school is located in Seri Menenti Royal Town which is 16km from Kuala Pilah Town and 40km from Seremban Town. The name of this school is named in conjunction with SMK Tunku Besar Burhanuddin taking the name of one of the royal relatives of Negeri Sembilan who is also the father-in-law of DYMM Almarhum Tuanku. I went to school here for 4 years. This school has a lot of memories because I lived in the hostel at this school. I sat the Form 3 Assessment exam (PT3) here with pretty good results.</p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+<img src="gambarsmksj2.png" class="man" width="200"height="250"/>
+  <h3>SEKOLAH MENENGAH KEBANGSAAN SEREMBAN JAYA 2</h3>
+  <p>Sekolah Menengah Kebangsaan Seremban Jaya 2 or SMK Seremban Jaya 2 for short is a national high school located in Taman Seremban Jaya. I went to school here for 2 years and sat my Sijil Pelajaran Malaysia (spm) exam here. This school is also close to my house in Seremban. I ride a motorcycle to go to school. The friends and teachers here are very kind and friendly. I learned a lot in this school about the importance of having friends around because when we are in trouble there will be friends who help us if we are good to them.</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+<body>
+<pre>
+<font color = "black" size = "5">
+These are the schools I used to study in school. 
+I would like to express my infinite gratitude to the teachers who have taught me from the time when I was not knowledgeable 
+until the knowledge I have now. 
+<div class="row">
+<div class="column">
+<iframe src="https://giphy.com/embed/FPDZV2JGkNGeUZdi7G" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></a></p>
+</div>
+<div class="column">
+<iframe src="https://giphy.com/embed/3otPoOxyDTXjzpMbIY" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></a></p>
+</div>
+</font>
+</body>
+</pre>
+</body>
+</html> 
